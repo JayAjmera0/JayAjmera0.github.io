@@ -1,0 +1,70 @@
+/* Reset some default styles and set a base font size */
+html, body, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 28px;
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+#player {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(221, 116, 116, 0.1);
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 20px;
+    background-color: #1b86ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Add some spacing for better readability */
+main p {
+    margin-bottom: 20px;
+}
