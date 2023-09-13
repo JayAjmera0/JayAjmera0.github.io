@@ -38,7 +38,7 @@ main {
 
 #player {
     width: 80%;
-    max-width: 100rem;
+    max-width: 960px;
     margin: 0 auto;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
@@ -65,6 +65,8 @@ footer {
     padding: 1rem 0;
     font-size: 0.875rem; /* Equivalent to 14px */
 }
+
+/* Information section styles */
 #about {
     background-color: #1a1a1a;
     color: #fff;
@@ -120,6 +122,7 @@ footer {
     color: #0056b3; /* Darker Royal Blue */
 }
 
+/* Additional styling for responsive design */
 @media (max-width: 768px) {
     #about {
         padding: 20px;
@@ -138,21 +141,10 @@ footer {
         font-size: 14px;
         margin-bottom: 16px;
     }
-}
-/* Existing CSS styles here */
 
-#player {
-    width: 100%; /* Adjusted width for mobile devices */
-    max-width: 960px;
-    margin: 0 auto;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Additional styling for responsive design */
-@media (max-width: 768px) {
+    /* Adjust player size for smaller screens */
     #player {
-        width: 95%; /* Reduce the width on smaller screens */
-        margin: 0 auto;
+        width: 95%;
     }
 
     /* Adjust button padding for better mobile usability */
