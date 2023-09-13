@@ -92,3 +92,77 @@ main p {
         font-size: 0.75rem; /* Equivalent to 12px */
     }
 }
+#about {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px;
+    text-align: left;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#about h2 {
+    color: #ffcc00; /* Royal Yellow */
+    font-size: 24px;
+    margin-top: 0;
+}
+
+#about h3 {
+    color: #ff4d4d; /* Royal Red */
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#about ul {
+    list-style-type: square;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#about ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+#about li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Styling links within the information section */
+#about a {
+    color: #007bff; /* Royal Blue */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#about a:hover {
+    color: #0056b3; /* Darker Royal Blue */
+}
+
+@media (max-width: 768px) {
+    #about {
+        padding: 20px;
+    }
+
+    #about h2 {
+        font-size: 22px;
+    }
+
+    #about h3 {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    #about p {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+}
