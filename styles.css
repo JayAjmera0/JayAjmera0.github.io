@@ -61,39 +61,12 @@ button:hover {
 
 footer {
     background-color: #333;
-    color: #ece7e7;
+    color: #fff;
     padding: 1rem 0;
     font-size: 0.875rem; /* Equivalent to 14px */
 }
-
-/* Add some spacing for better readability */
-main p {
-    margin-bottom: 1.25rem; /* Equivalent to 20px */
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem; /* Equivalent to 32px */
-    }
-    h2 {
-        font-size: 1.5rem; /* Equivalent to 24px */
-    }
-    #player {
-        width: 95%;
-    }
-    button {
-        font-size: 1rem; /* Equivalent to 16px */
-    }
-    main p {
-        margin-bottom: 1rem; /* Equivalent to 16px */
-    }
-    footer {
-        font-size: 0.75rem; /* Equivalent to 12px */
-    }
-}
 #about {
-    background-color: #110f0f;
+    background-color: #1a1a1a;
     color: #fff;
     padding: 40px;
     text-align: left;
